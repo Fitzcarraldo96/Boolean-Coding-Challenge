@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(MaterialeEsercizioLim/background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    width: 900px;
+    height: 750px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header-container img {
+    width: 35%;
+
+}
+
+.header-container h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7rem;
+    color: rgb(52, 229, 52);
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+.buttons {
+    text-align: center;
+    background-color: rgb(14, 232, 72);
+    padding: 8px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.monopattini {
+    height: 120px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.loading1 {
+    background-color: rgb(17, 185, 20);
+    width: 400px;
+    height: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.loading2 {
+    background-color: rgb(27, 112, 28);
+    width: 250px;
+    height: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.loading3 {
+    background-color: rgb(61, 139, 62);
+    width: 180px;
+    height: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.content {
+    position: relative;
+    top: -20px;
+}
